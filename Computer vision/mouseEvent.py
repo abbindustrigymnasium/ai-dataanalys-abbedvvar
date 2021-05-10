@@ -21,7 +21,7 @@ def mouseClick(event, x, y, flags, params):
 
 
 # frame = np.zeros((1080, 1080, 3), np.uint8)
-frame = cv2.imread('lena.jpg', 1)
+frame = cv2.imread('messi5.jpg', 1)
 cv2.imshow('frame', frame)
 
 cv2.setMouseCallback('frame', mouseClick)
